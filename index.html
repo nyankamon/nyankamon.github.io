@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <img class="logo" title="Reset Game" src="Nyankamon.png" alt="Nyankamon">
+</header>
+
+<main>
+  <div class="instructions">
+    <p>Choose your hero</p>
+  </div>
+  
+  <section class="characters"></section>
+  
+  <section class="stadium">
+    <section class="enemy"></section>
+    <section class="hero"></section>
+  </section>
+  
+  
+  <ul class="attack-list"></ul>
+</main>
+
+
+
+<audio id="intro-music" src="intro.mp3" loop muted autoplay></audio>
+<script>
+  document.addEventListener('click', function() {
+    const music = document.getElementById("intro-music");
+    music.muted = false; // Désactiver le mode muet après un clic
+    music.play();
+  });
+</script>
+
+<div class="modal-out">
+  <div class="modal-in">
+    <header></header>
+    <section></section>
+    <footer></footer>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
