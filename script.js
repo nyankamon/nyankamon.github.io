@@ -252,7 +252,7 @@ function buildVars(){
         },
         {
           name: "rizz mango still water from ohio",
-          hp: randomNum(460, 430),
+          hp: randomNum(300, 280),
           avail: {
             total: 1,
             remaining: 1
