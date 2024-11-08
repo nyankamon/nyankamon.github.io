@@ -40,6 +40,59 @@
   });
 </script>
 
+  <style>
+    /* Styles for the icon */
+    .icon-container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    /* Modal overlay */
+    .image-modal-out {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background: rgba(33, 33, 33, 0.75);
+      z-index: 900;
+    }
+
+    /* Modal content */
+    .image-modal-in {
+      position: fixed;
+      top: 10vh;
+      left: 0;
+      right: 0;
+      width: 80vw;
+      height: 80vh;
+      margin: 0 auto;
+      background: #FFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Close button */
+    .image-modal-in .close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    /* Schema image */
+    .schema-image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
   <!-- Icon to open the modal -->
   <div class="icon-container">
     <img src="icon.png" alt="Open schema" onclick="openImageModal()">
