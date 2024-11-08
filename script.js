@@ -105,8 +105,8 @@ function buildVars(){
           name: "armée de simp",
           hp: randomNum(160, 130),
           avail: {
-            total: 6,
-            remaining: 6
+            total: 7,
+            remaining: 7
           }
         }
       ]
@@ -252,7 +252,7 @@ function buildVars(){
         },
         {
           name: "rizz mango still water from ohio",
-          hp: randomNum(250, 200),
+          hp: randomNum(260, 230),
           avail: {
             total: 1,
             remaining: 1
@@ -350,10 +350,10 @@ function buildVars(){
         },
         {
           name: "new world order",
-          hp: randomNum(200, 160),
+          hp: randomNum(260, 230),
           avail: {
-            total: 3,
-            remaining: 3
+            total: 1,
+            remaining: 1
           }
         }
       ]
