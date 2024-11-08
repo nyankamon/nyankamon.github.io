@@ -89,24 +89,24 @@ function buildVars(){
           name: "crise",
           hp: randomNum(60,45),
           avail: {
-            total: 7,
-            remaining: 7
+            total: 14,
+            remaining: 14
           }
         },
         {
           name: "nazbol blast",
           hp: randomNum(75,60),
           avail: {
-            total: 5,
-            remaining: 5
+            total: 10,
+            remaining: 10
           }
         },
         {
           name: "armée de simp",
           hp: randomNum(160, 130),
           avail: {
-            total: 3,
-            remaining: 3
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -146,16 +146,16 @@ function buildVars(){
           name: "quenelle",
           hp: randomNum(75,60),
           avail: {
-            total: 5,
-            remaining: 5
+            total: 10,
+            remaining: 10
           }
         },
         {
           name: "faut le savoir",
           hp: randomNum(160, 130),
           avail: {
-            total: 3,
-            remaining: 3
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -197,16 +197,16 @@ function buildVars(){
           name: "aryan spirit",
           hp: randomNum(75,60),
           avail: {
-            total: 5,
-            remaining: 5
+            total: 10,
+            remaining: 10
           }
         },
         {
           name: "secret breathing technique",
           hp: randomNum(160, 130),
           avail: {
-            total: 3,
-            remaining: 3
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -238,8 +238,8 @@ function buildVars(){
           name: "looksmaxxing",
           hp: randomNum(60,45),
           avail: {
-            total: 14,
-            remaining: 14
+            total: 18,
+            remaining: 18
           }
         },
         {
@@ -295,16 +295,16 @@ function buildVars(){
           name: "edgelord aura",
           hp: randomNum(75,60),
           avail: {
-            total: 5,
-            remaining: 5
+            total: 10,
+            remaining: 10
           }
         },
         {
           name: "4chan ban",
           hp: randomNum(160, 130),
           avail: {
-            total: 3,
-            remaining: 3
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -328,16 +328,16 @@ function buildVars(){
           name: "blacklist",
           hp: randomNum(40,20),
           avail: {
-            total: 15,
-            remaining: 15
+            total: 69,
+            remaining: 69
           }
         },
         {
           name: "exotic islandic scheme",
           hp: randomNum(60,45),
           avail: {
-            total: 4,
-            remaining: 4
+            total: 14,
+            remaining: 14
           }
         },
         {
@@ -352,8 +352,8 @@ function buildVars(){
           name: "new world order",
           hp: randomNum(200, 160),
           avail: {
-            total: 2,
-            remaining: 2
+            total: 3,
+            remaining: 3
           }
         }
       ]
