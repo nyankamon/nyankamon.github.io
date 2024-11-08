@@ -40,6 +40,30 @@
   });
 </script>
 
+  <!-- Icon to open the modal -->
+  <div class="icon-container">
+    <img src="icon.png" alt="Open schema" onclick="openImageModal()">
+  </div>
+
+  <!-- Image modal structure -->
+  <div class="image-modal-out" id="imageModal">
+    <div class="image-modal-in">
+      <span class="close" onclick="closeImageModal()">×</span>
+      <img src="schema.jpg" alt="Schema" class="schema-image">
+    </div>
+  </div>
+
+  <!-- JavaScript to control the modal behavior -->
+  <script>
+    function openImageModal() {
+      document.getElementById('imageModal').style.display = 'block';
+    }
+
+    function closeImageModal() {
+      document.getElementById('imageModal').style.display = 'none';
+    }
+  </script>
+
 <div class="modal-out">
   <div class="modal-in">
     <header></header>
