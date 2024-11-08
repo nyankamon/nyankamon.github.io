@@ -238,24 +238,24 @@ function buildVars(){
           name: "looksmaxxing",
           hp: randomNum(60,45),
           avail: {
-            total: 18,
-            remaining: 18
-          }
-        },
-        {
-          name: "sigma grindset",
-          hp: randomNum(100,85),
-          avail: {
             total: 14,
             remaining: 14
           }
         },
         {
-          name: "rizz mango still water from ohio",
-          hp: randomNum(260, 230),
+          name: "sigma grindset",
+          hp: randomNum(75,60),
           avail: {
-            total: 1,
-            remaining: 1
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name: "rizz mango still water from ohio",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -279,8 +279,8 @@ function buildVars(){
           name: "doomscroll",
           hp: randomNum(40,20),
           avail: {
-            total: 50,
-            remaining: 50
+            total: 88,
+            remaining: 88
           }
         },
         {
@@ -342,18 +342,18 @@ function buildVars(){
         },
         {
           name: "akashic records",
-          hp: randomNum(160,130),
+          hp: randomNum(75,60),
           avail: {
-            total: 4,
-            remaining: 4
+            total: 10,
+            remaining: 10
           }
         },
         {
           name: "new world order",
-          hp: randomNum(260, 230),
+          hp: randomNum(160, 130),
           avail: {
-            total: 1,
-            remaining: 1
+            total: 6,
+            remaining: 6
           }
         }
       ]
@@ -409,12 +409,12 @@ function attackMultiplier(attacker, curAttack){
 
   if(gameData[defender].weakness.indexOf(gameData[attacker].type) >= 0){
     // weakness exists
-    curAttack.hp *= 1.005;
+    curAttack.hp *= 1.05;
   }
 
   if(gameData[defender].resistance.indexOf(gameData[attacker].type) >= 0){
     // weakness exists
-    curAttack.hp /= 1.005;
+    curAttack.hp /= 1.05;
   }
 
   curAttack.hp = Math.floor(curAttack.hp);
