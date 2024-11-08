@@ -222,8 +222,8 @@ function buildVars(){
         back: "combatp.gif",
       },
       hp: {
-        current: 500,
-        total: 500
+        current: 400,
+        total: 400
       },
       attacks: [
         {
