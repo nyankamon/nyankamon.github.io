@@ -222,8 +222,8 @@ function buildVars(){
         back: "combatp.gif",
       },
       hp: {
-        current: 400,
-        total: 400
+        current: 500,
+        total: 500
       },
       attacks: [
         {
@@ -409,12 +409,12 @@ function attackMultiplier(attacker, curAttack){
 
   if(gameData[defender].weakness.indexOf(gameData[attacker].type) >= 0){
     // weakness exists
-    curAttack.hp *= 1.1;
+    curAttack.hp *= 1.005;
   }
 
   if(gameData[defender].resistance.indexOf(gameData[attacker].type) >= 0){
     // weakness exists
-    curAttack.hp /= 1.1;
+    curAttack.hp /= 1.005;
   }
 
   curAttack.hp = Math.floor(curAttack.hp);
