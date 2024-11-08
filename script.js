@@ -244,7 +244,7 @@ function buildVars(){
         },
         {
           name: "sigma grindset",
-          hp: randomNum(75,60),
+          hp: randomNum(100,85),
           avail: {
             total: 14,
             remaining: 14
